@@ -1,0 +1,31 @@
+# Ignorar archivos compilados
+*.class
+*.o
+*.so
+
+# Ignorar archivos y directorios de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar logs y archivos temporales
+*.log
+*.tmp
+
+# Ignorar archivos y directorios de configuración de entorno
+.env
+.vscode/
+.idea/
+
+# Ignorar dependencias (ejemplos para Node.js y Python)
+node_modules/
+dist/
+venv/
+__pycache__/
+
+# Ignorar archivos de configuración personal
+*.swp
+*.swo
+
+# Ignorar archivos y directorios específicos del proyecto
+/build/
+release/
